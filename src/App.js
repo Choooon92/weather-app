@@ -24,7 +24,7 @@ function App() {
     };
 
     fetchData()
-  }, [units]);
+  }, [units, city]);
 
 
   const handleUnitsClick = (e) => {
