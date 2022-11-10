@@ -94,3 +94,19 @@
 .temperature>h1 {
   font-size: 60px;
 }
+
+
+/* responsive */
+
+@media (max-width: 480px) {
+  .section__inputs {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .section__inputs>button {
+    width: 75%;
+  }
+}
